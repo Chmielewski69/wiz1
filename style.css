@@ -375,6 +375,7 @@ h4
     transition: 0.5s;
     padding-top: 60px;
     text-align:center;
+	
 }
 
 .sidenav a {
@@ -443,7 +444,7 @@ font-size: 5px;
 }	
 .name
 {
-	width: 100%;
+	width: 90%;
 	background-color: #ddd;
    text-align: center;
 	
