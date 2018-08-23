@@ -19,7 +19,17 @@
 </head>
 <body>
 	<section class="parallax">
-				<div class="header">	
+		<div class="header">	
+			<div id="mySidenav" class="sidenav">
+			  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			  <a  onclick="scroll_to('#omnie'), closeNav();">O mnie</a>
+			  <a  onclick="scroll_to('#mojapraca'), closeNav();">Moja praca</a>
+			  <a  onclick="scroll_to('#galeria'), closeNav();">Galeria</a>
+			  <a  onclick="scroll_to('#oferta'), closeNav();">Oferta</a>
+			  <a  onclick="scroll_to('#kontakt'), closeNav();">Kontakt</a>
+			  <a  onclick="scroll_to('#znajomi'), closeNav();">Znajomi</a>
+			</div>
+			<span class="resnav"style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
 			<nav class="topnav">
 				<a  class="btn"  onclick="scroll_to('#omnie');">O mnie</a>
 				<a  class="btn"  onclick="scroll_to('#mojapraca');">Moja praca</a>
@@ -334,5 +344,14 @@ function myFunction() {
 		mode: "words",
 		truncate: 100});
 	</script>
-</body>
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "100%";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+	</body>
 </html>
