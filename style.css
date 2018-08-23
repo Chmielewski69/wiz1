@@ -24,7 +24,7 @@ body
 
     /* Full height */
     height: 100%; 
-
+	width: 100%;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -351,6 +351,18 @@ h4
 }
 @media screen and (max-width: 630px)
 {
+	.oferty
+{
+	border-radius: 5px;
+	background-color: rgba(85,85,85,0);
+	margin: auto;
+	margin-bottom: 10px;
+	width: 70%;
+    overflow-x: scroll;
+	overflow-y: hidden;
+    white-space: nowrap;
+	
+}
 .omnie{
 font-size: 5px;
 }
