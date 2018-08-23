@@ -375,6 +375,7 @@ h4
     transition: 0.5s;
     padding-top: 60px;
     text-align:center;
+	color: white;
 	
 }
 
@@ -382,7 +383,7 @@ h4
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
+    color: white;
     display: block;
     transition: 0.3s;
 
@@ -444,7 +445,7 @@ font-size: 5px;
 }	
 .name
 {
-	width: 90%;
+	width: 70%;
 	background-color: #ddd;
    text-align: center;
 	
